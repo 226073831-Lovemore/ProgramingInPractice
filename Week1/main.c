@@ -17,7 +17,7 @@ int main(void) {
 
     // 3. Prompt User for Inputs
     printf("Enter Municipality Name: ");
-    if (fgets(municipality_name, sizeof(municipality_name), stdin) != NULL) {
+    if (fgets(municipality_name, sizeof(municipality_name), stdin) != NULL)
         municipality_name[strcspn(municipality_name, "\n")] = '\0';
     }
 

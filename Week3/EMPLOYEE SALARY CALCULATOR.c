@@ -4,11 +4,11 @@ int main() {
     double basic_salary, housing, transport, tax;
     double gross_salary, net_salary;
 
-    printf("====\n");
+    printf("==\n");
     printf("   EMPLOYEE SALARY CALCULATOR   \n");
-    printf("====\n\n");
+    printf("==\n\n");
 
-    // Core salary inputs
+ 
     printf("Enter Basic Salary: ");
     scanf("%lf", &basic_salary);
 
@@ -21,11 +21,11 @@ int main() {
     printf("Enter Tax Amount: ");
     scanf("%lf", &tax);
 
-    // Calculations
+    
     gross_salary = basic_salary + housing + transport;
     net_salary = gross_salary - tax;
 
-    // Output Summary
+  
     printf("\n====\n");
     printf("   EMPLOYEE SALARY SUMMARY   \n");
     printf("====\n");
@@ -35,7 +35,7 @@ int main() {
     printf("Gross Salary        : $%.2f\n", gross_salary);
     printf("Tax Deduction       : $%.2f\n", tax);
     printf("Net Salary          : $%.2f\n", net_salary);
-    printf("====\n");
+    printf("==\n");
 
     return 0;
 }
